@@ -1,0 +1,65 @@
+@import url('../styles/init.css');
+
+.navigation{
+    width: 100vw;
+    height: 75px;
+    background: #072D8E;
+    display: flex;
+    color: #FFFFFF;
+    padding: 0 5vw;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 65px;
+    height: 56px;
+}
+
+.logo-text{
+    width: 184px;
+    height: 37px;
+}
+
+.navigation-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 5vw;
+}
+
+.navigation-element{
+    padding: 20px 10px;
+}
+
+.navigation-element:hover{
+    cursor: pointer;
+}
+
+/*
+    MAIN
+*/
+
+/* 
+    WELCOME
+*/
+
+.welcome{
+    width: 630px;
+    height: 351px;
+    background: #EFEFEF;
+    box-shadow: 33px 33px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 32px;
+    text-align: center;
+    margin: 80px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
