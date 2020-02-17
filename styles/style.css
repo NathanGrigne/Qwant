@@ -1,5 +1,11 @@
 @import url('../styles/init.css');
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .navigation{
     width: 100vw;
     height: 75px;
@@ -9,9 +15,15 @@
     padding: 0 5vw;
 }
 
+.navigation a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .logo-container{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo{
@@ -50,12 +62,12 @@
 
 .welcome{
     width: 630px;
-    height: 351px;
+    height: auto;
     background: #EFEFEF;
     box-shadow: 33px 33px 50px rgba(0, 0, 0, 0.15);
     border-radius: 32px;
     text-align: center;
-    margin: 80px auto;
+    margin: 155px auto;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
@@ -70,7 +82,7 @@
 
 .qwanturank-seo{
     width: 90vw;
-    height: 1693px;
+    height: auto;
     margin: 160px auto;
     border-radius: 32px;
     background: #EFEFEF;
@@ -130,7 +142,7 @@
 
 .qwant{
     width: 90vw;
-    height: 1383px;
+    height: auto;
     margin: 160px auto;
     border-radius: 32px;
     background: #EFEFEF;
@@ -158,16 +170,22 @@
 
 .qwanturank-contenders{
     width: 90vw;
-    height: 1383px;
+    height: auto;
     margin: 160px auto;
     border-radius: 32px;
     background: #EFEFEF;
     box-shadow: 33px 33px 50px rgba(0, 0, 0, 0.15);
     padding: 40px 5%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .qwanturank-contenders h2{
-    margin: 0 0 30px 0;
+    margin: 30px 0;
+}
+
+.lyrics{
+    margin-top: 60px;
+    text-align: center;
 }
 
