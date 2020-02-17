@@ -85,7 +85,7 @@
 }
 
 .image-seo-container{
-    width: 60%;
+    width: 50%;
     height: 488px;
     background: url('../images/undraw_file_searching_duff\ 1.png');
     background-size: cover;
@@ -127,3 +127,47 @@
 .netlinking-list{
     padding-left: 15%;
 }
+
+.qwant{
+    width: 90vw;
+    height: 1383px;
+    margin: 160px auto;
+    border-radius: 32px;
+    background: #EFEFEF;
+    box-shadow: 33px 33px 50px rgba(0, 0, 0, 0.15);
+    padding: 40px 5%;
+    box-sizing: border-box;
+}
+
+.qwant h2{
+    margin: 0 0 50px 0;
+}
+
+.qwant h3{
+    margin: 35px 0;
+}
+
+.image-qwant{
+    width: 70%;
+    height: 145px;
+    background: url('../images/qwant_service-9bba8-98e61\ 1.png');
+    background-position: center;
+    background-size: cover;
+    margin: 40px auto;
+}
+
+.qwanturank-contenders{
+    width: 90vw;
+    height: 1383px;
+    margin: 160px auto;
+    border-radius: 32px;
+    background: #EFEFEF;
+    box-shadow: 33px 33px 50px rgba(0, 0, 0, 0.15);
+    padding: 40px 5%;
+    box-sizing: border-box;
+}
+
+.qwanturank-contenders h2{
+    margin: 0 0 30px 0;
+}
+
