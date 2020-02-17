@@ -14,12 +14,14 @@ p{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
+    line-height: 19.5px;
 }
 
 .montserrat-text{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 20px;
+    line-height: 19.5px;
 }
 
 h1,h2,h3,h4,h5{
